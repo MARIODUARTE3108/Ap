@@ -142,6 +142,35 @@
   }
   .hero-address i { color: #fde047; flex-shrink: 0; }
 
+  .hero-gps-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .gps-btn {
+    flex: 1 1 auto;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 7px 12px;
+    border-radius: var(--radius-full);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(8px);
+  }
+  .gps-btn:hover, .gps-btn:active {
+    background: rgba(255, 255, 255, 0.28);
+    transform: translateY(-1px);
+    color: #ffffff;
+  }
+
   /* --- BOTTOM DOCKED NAV --- */
   .dock-nav {
     position: fixed;
