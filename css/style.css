@@ -213,6 +213,21 @@
     background: linear-gradient(135deg, var(--card-bg) 0%, var(--primary-soft) 100%);
     border-color: rgba(21, 94, 91, 0.25);
   }
+  .quick-guide-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light);
+  }
+  @media (prefers-color-scheme: dark) {
+    .quick-guide-box {
+      background: rgba(0, 0, 0, 0.25);
+      border-color: var(--border-color);
+    }
+  }
   .quick-card-header {
     display: flex;
     align-items: center;
