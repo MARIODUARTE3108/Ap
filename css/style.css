@@ -41,10 +41,20 @@
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
   body {
     background-color: var(--bg-base);
+    background-image: linear-gradient(rgba(248, 246, 241, 0.94), rgba(248, 246, 241, 0.94)), url('../img/sunset-arpoador.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--text-main);
     font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 1.5;
     padding-bottom: 90px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-image: linear-gradient(rgba(18, 17, 16, 0.95), rgba(18, 17, 16, 0.95)), url('../img/sunset-arpoador.jpg');
+    }
   }
 
   .container {
@@ -53,14 +63,15 @@
     padding: 0 18px;
   }
 
-  /* --- HEADER & HERO --- */
+  /* --- HEADER & HERO COM FOTO REAL DE PÔR DO SOL --- */
   .hero-banner {
-    background: linear-gradient(145deg, #123e3b 0%, #1a5652 60%, #b45309 130%);
+    background: linear-gradient(180deg, rgba(18, 62, 59, 0.82) 0%, rgba(20, 50, 48, 0.78) 55%, rgba(180, 83, 9, 0.88) 100%), 
+                url('../img/sunset-arpoador.jpg') center center / cover no-repeat;
     color: white;
     padding: 38px 20px 32px;
     border-radius: 0 0 28px 28px;
     position: relative;
-    box-shadow: 0 10px 25px -5px rgba(18, 62, 59, 0.25);
+    box-shadow: 0 10px 25px -5px rgba(18, 62, 59, 0.35);
   }
   .hero-badge {
     display: inline-flex;
