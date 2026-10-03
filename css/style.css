@@ -659,3 +659,62 @@
     margin-top: 16px;
     box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
   }
+
+  /* --- CHECKLIST CHECK-OUT & AVALIAÇÃO AIRBNB --- */
+  .checkout-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    margin-bottom: 22px;
+    box-shadow: var(--shadow-sm);
+  }
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 0.88rem;
+  }
+  .checklist-item:last-child { border-bottom: none; }
+  .checklist-item i { color: var(--primary); margin-top: 2px; flex-shrink: 0; }
+
+  .review-card {
+    background: linear-gradient(145deg, #fffbeb 0%, #fef3c7 100%);
+    border: 1.5px solid #fde68a;
+    border-radius: var(--radius-lg);
+    padding: 22px 20px;
+    margin-bottom: 24px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+  }
+  @media (prefers-color-scheme: dark) {
+    .review-card {
+      background: linear-gradient(145deg, #272115 0%, #1e1b15 100%);
+      border-color: #78350f;
+    }
+  }
+  .stars-row {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 8px 0 12px;
+    color: #f59e0b;
+  }
+  .btn-airbnb {
+    background: #ff385c;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: var(--radius-full);
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    box-shadow: 0 4px 14px rgba(255, 56, 92, 0.35);
+    transition: transform 0.2s;
+  }
+  .btn-airbnb:active { transform: scale(0.96); }

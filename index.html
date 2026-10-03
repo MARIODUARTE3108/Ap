@@ -125,6 +125,7 @@
       <button class="manual-tab-btn active" data-tab="fan"><i data-lucide="fan" style="width: 17px; height: 17px;"></i> Controle do Ventilador</button>
       <button class="manual-tab-btn" data-tab="tv"><i data-lucide="tv" style="width: 17px; height: 17px;"></i> Smart TV & Apps</button>
       <button class="manual-tab-btn" data-tab="washer"><i data-lucide="washing-machine" style="width: 17px; height: 17px;"></i> Máquina de Lavar</button>
+      <button class="manual-tab-btn" data-tab="shower"><i data-lucide="shower-head" style="width: 17px; height: 17px;"></i> Chuveiro a Gás</button>
     </div>
 
     <div class="manual-content-card">
@@ -339,6 +340,64 @@
         <div class="tip-box">
           <i data-lucide="info" style="width: 22px; height: 22px; color: var(--accent); flex-shrink: 0;"></i>
           <div><strong>Atenção:</strong> Esta máquina é <strong>exclusiva para lavar e centrifugar</strong> (não é lava e seca). Deixamos um varal na área de serviço para você secar suas roupas com rapidez!</div>
+        </div>
+      </div>
+
+      <!-- PAINEL 4: CHUVEIRO A GÁS & DUPLO REGISTRO -->
+      <div class="manual-panel" id="tab-shower">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px;">
+          <h3 style="font-size: 1.15rem; font-weight:700;">Chuveiro com Aquecimento a Gás</h3>
+          <span class="pill" style="background:#e0f2fe; color:#0369a1; font-weight:700;">Água Quente com Alta Pressão</span>
+        </div>
+        <p style="font-size: 0.85rem; color:var(--text-muted);">Nosso chuveiro conta com aquecedor a gás automático e sistema de duplo registro para você calibrar a temperatura perfeita.</p>
+
+        <!-- DIAGRAMA VISUAL DOS REGISTROS -->
+        <div class="step-diagram">
+          <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted);">SISTEMA DE DUPLO REGISTRO (QUENTE & FRIO)</div>
+          
+          <div class="fan-remote-container">
+            <img src="img/chuveiro-registros.png" alt="Chuveiro a gás com duplo registro" class="remote-real-photo" style="width: 155px; border-radius: 8px;">
+
+            <div class="remote-button-grid">
+              <div class="remote-row-explain" style="border-left: 3px solid #ef4444;">
+                <span class="btn-tag power" style="background:#fee2e2; color:#b91c1c; font-weight:800;">ESQUERDA</span>
+                <div><strong>Registro de Água Quente:</strong> Abre a água que passa pelo aquecedor a gás.</div>
+              </div>
+              <div class="remote-row-explain" style="border-left: 3px solid #3b82f6;">
+                <span class="btn-tag circle" style="background:#dbeafe; color:#1d4ed8; font-weight:800; border-radius:8px;">DIREITA</span>
+                <div><strong>Registro de Água Fria:</strong> Abre a água natural para misturar e equilibrar a temperatura.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ol class="step-list">
+          <li class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h5>Abra primeiro o registro da ESQUERDA (Água Quente)</h5>
+              <p>Gire o registro da esquerda para liberar a água quente. Em cerca de <strong>15 a 30 segundos</strong> a água começa a sair bem quentinha à medida que o aquecedor a gás entra em ação.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h5>Abra o registro da DIREITA (Água Fria) aos poucos para temperar</h5>
+              <p>Se a água estiver muito quente, abra suavemente o registro da direita até alcançar a temperatura ideal do seu banho.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h5>Ao finalizar o banho</h5>
+              <p>Feche ambos os registros completamente para desarmar o aquecedor a gás e evitar gotejamento.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="tip-box">
+          <i data-lucide="flame" style="width: 22px; height: 22px; color: #ef4444; flex-shrink: 0;"></i>
+          <div>O aquecedor acende de forma <strong>100% automática</strong> na área de serviço logo que você abre a água quente. Não precisa mexer no aquecedor!</div>
         </div>
       </div>
 
@@ -593,11 +652,50 @@
         <span>🏢 Acesso ao Bloco 3, Apto 312 e Elevador</span>
         <i data-lucide="chevron-down" class="acc-icon" style="width: 18px; height: 18px;"></i>
       </button>
-      <div class="accordion-body" style="max-height: 250px;">
+      <div class="accordion-body" style="max-height: 500px;">
         <div class="accordion-inner">
-          <p>• <strong>Identificação na Portaria Principal:</strong> Ao chegar, anuncie seu nome completo cadastrado na reserva para liberação dos portões de pedestres ou carro.</p>
-          <p>• <strong>Entrada no Bloco:</strong> Dirija-se ao <strong>Bloco 3</strong>. No teclado eletrônico Intelbras ao lado da porta, aperte primeiro o botão <strong>"SENHA"</strong> (no canto inferior direito) e em seguida digite <strong>30303</strong> para liberar a porta.</p>
-          <p>• <strong>Acesso ao Apartamento:</strong> O condomínio conta com <strong>elevadores modernos</strong> no hall de entrada. O apartamento fica no 3º andar, número <strong>312</strong>.</p>
+          <div style="display:flex; gap:14px; flex-wrap:wrap; margin-bottom:12px; align-items:center;">
+            <img src="img/bloco-03-fachada.jpg" alt="Fachada do Bloco 03 Vibe Sunset" style="width:130px; height:auto; border-radius:10px; box-shadow:var(--shadow-sm); flex-shrink:0;">
+            <div style="flex:1; min-width:200px; font-size:0.86rem;">
+              <p>• <strong>Identificação na Portaria:</strong> Ao chegar, anuncie seu nome completo cadastrado na reserva para liberação dos portões.</p>
+              <p>• <strong>Entrada no Bloco 03:</strong> Dirija-se ao portal laranja identificado com <strong>"03"</strong>. No teclado Intelbras da porta, aperte o botão <strong>"SENHA"</strong> e digite <strong>30303</strong>.</p>
+              <p>• <strong>Elevador:</strong> O hall de entrada conta com elevador moderno. O apartamento fica no 3º andar, número <strong>312</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span>🚗 Garagem & Estacionamento (Atenção às Vagas)</span>
+        <i data-lucide="chevron-down" class="acc-icon" style="width: 18px; height: 18px;"></i>
+      </button>
+      <div class="accordion-body">
+        <div class="accordion-inner">
+          <p>• O condomínio possui vaga de estacionamento disponível para hóspedes mediante cadastro da placa na portaria.</p>
+          <div style="background:#fee2e2; border-left:4px solid #ef4444; padding:10px 14px; border-radius:4px; font-size:0.84rem; color:#991b1b; margin-top:8px;">
+            <strong>⚠️ Regra Importante do Estacionamento:</strong> É expressamente proibido estacionar nas vagas duplas (presas). Estacione <strong>somente nas vagas livres e individuais onde cabe apenas 1 carro</strong>, para não prender o veículo de outros moradores.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">
+        <span>🗑️ Onde Jogar o Lixo (Porta ao lado do Elevador)</span>
+        <i data-lucide="chevron-down" class="acc-icon" style="width: 18px; height: 18px;"></i>
+      </button>
+      <div class="accordion-body">
+        <div class="accordion-inner">
+          <div style="display:flex; gap:14px; flex-wrap:wrap; align-items:center;">
+            <img src="img/lixeira-elevador.jpg" alt="Porta de Lixo ao lado do Elevador" style="width:120px; height:auto; border-radius:10px; box-shadow:var(--shadow-sm); flex-shrink:0;">
+            <div style="flex:1; min-width:200px; font-size:0.86rem;">
+              <p>Caso queira descartar o lixo durante sua estadia ou ao fazer o check-out:</p>
+              <p>• O descarte fica no próprio andar, na <strong>porta branca veneziana com a placa "Lixo" localizada exatamente ao lado do elevador</strong>.</p>
+              <p>• Por favor, deposite os resíduos sempre em sacos plásticos bem fechados.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -622,30 +720,6 @@
       <div class="accordion-body">
         <div class="accordion-inner">
           <p>É expressamente proibido fumar cigarro, charutos ou pods dentro das dependências do apartamento para manter o ambiente sempre agradável e seguro.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <button class="accordion-header">
-        <span>🚗 Garagem & Portaria 24h</span>
-        <i data-lucide="chevron-down" class="acc-icon" style="width: 18px; height: 18px;"></i>
-      </button>
-      <div class="accordion-body">
-        <div class="accordion-inner">
-          <p>A portaria principal funciona 24 horas. Vaga disponível para hóspedes mediante identificação de placa e modelo do veículo.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <button class="accordion-header">
-        <span>🗑️ Descarte de Lixo</span>
-        <i data-lucide="chevron-down" class="acc-icon" style="width: 18px; height: 18px;"></i>
-      </button>
-      <div class="accordion-body">
-        <div class="accordion-inner">
-          <p>Sacos de lixo devidamente fechados devem ser levados à lixeira do andar/bloco ao final da estadia ou sempre que cheios.</p>
         </div>
       </div>
     </div>
@@ -705,6 +779,76 @@
           </ul>
         </div>
       </div>
+    </div>
+
+    <!-- ==============================================
+         CHECKLIST DE CHECK-OUT & AVALIAÇÃO 5 ESTRELAS
+    =================================================== -->
+    <div class="section-title-wrap" id="checkout-section">
+      <div>
+        <h2 class="section-title"><i data-lucide="check-circle-2" style="width: 22px; height: 22px;"></i> Antes de Partir (Check-out)</h2>
+        <p class="section-sub">Horário limite de saída até as 11:00h</p>
+      </div>
+    </div>
+
+    <!-- CARD CHECKLIST DE CHECK-OUT (OPÇÃO 5) -->
+    <div class="checkout-card">
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+        <span style="background:var(--primary-soft); color:var(--primary); padding:6px 12px; border-radius:var(--radius-full); font-size:0.8rem; font-weight:700;">
+          Lembretes Rápidos de Saída
+        </span>
+      </div>
+
+      <div class="checklist-item">
+        <i data-lucide="power-off" style="width: 20px; height: 20px;"></i>
+        <div>
+          <strong>Luzes e Aparelhos:</strong>
+          <p style="margin:2px 0 0; color:var(--text-muted);">Apague todas as lâmpadas e desligue a TV e os ventiladores de teto nos controles.</p>
+        </div>
+      </div>
+
+      <div class="checklist-item">
+        <i data-lucide="wind" style="width: 20px; height: 20px;"></i>
+        <div>
+          <strong>Janelas e Portas:</strong>
+          <p style="margin:2px 0 0; color:var(--text-muted);">Confirme se as janelas da sala e quartos estão bem fechadas e a geladeira encostada.</p>
+        </div>
+      </div>
+
+      <div class="checklist-item">
+        <i data-lucide="trash-2" style="width: 20px; height: 20px;"></i>
+        <div>
+          <strong>Descarte do Lixo:</strong>
+          <p style="margin:2px 0 0; color:var(--text-muted);">Deposite os sacos de lixo na lixeira do corredor (porta identificada ao lado do elevador).</p>
+        </div>
+      </div>
+
+      <div class="checklist-item">
+        <i data-lucide="key" style="width: 20px; height: 20px;"></i>
+        <div>
+          <strong>Chaves e Tranca:</strong>
+          <p style="margin:2px 0 0; color:var(--text-muted);">Puxe a porta principal até travar bem. Avise-nos pelo WhatsApp assim que sair!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD AVALIAÇÃO 5 ESTRELAS AIRBNB (OPÇÃO 6) -->
+    <div class="review-card">
+      <span style="font-size: 2rem;">⭐</span>
+      <h3 style="font-size: 1.25rem; font-weight: 800; color: #92400e; margin: 6px 0 4px;">Sua experiência foi 5 Estrelas?</h3>
+      <div class="stars-row">
+        <i data-lucide="star" style="width: 22px; height: 22px; fill: #f59e0b; color: #f59e0b;"></i>
+        <i data-lucide="star" style="width: 22px; height: 22px; fill: #f59e0b; color: #f59e0b;"></i>
+        <i data-lucide="star" style="width: 22px; height: 22px; fill: #f59e0b; color: #f59e0b;"></i>
+        <i data-lucide="star" style="width: 22px; height: 22px; fill: #f59e0b; color: #f59e0b;"></i>
+        <i data-lucide="star" style="width: 22px; height: 22px; fill: #f59e0b; color: #f59e0b;"></i>
+      </div>
+      <p style="font-size: 0.88rem; color: #78350f; max-width: 440px; margin: 0 auto; line-height: 1.45;">
+        Trabalhamos com muito carinho para proporcionar a melhor estadia no Recreio! Uma avaliação <strong>5 estrelas no Airbnb</strong> nos ajuda imensamente como anfitriões independentes. Se algo não esteve perfeito, por favor nos avise no WhatsApp para resolvermos imediatamente!
+      </p>
+      <a href="https://www.airbnb.com.br/trips" target="_blank" class="btn-airbnb">
+        <i data-lucide="award" style="width: 18px; height: 18px;"></i> Avaliar Estadia no Airbnb
+      </a>
     </div>
 
     <!-- ==============================================
